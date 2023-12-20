@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>My PortFolio ~ Suhel Shaik</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <script src="https://kit.fontawesome.com/62456e389d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="nav-bar">
+                <h1><span style="color:#ff004f;font-size:40px;">S</span>uhel.</h1>
+                <nav id="sidemenu">
+                    <a href="#header">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#about">Education</a>
+                    <a href="#about">Skills</a>
+                    <a href="#portfolio">Projects</a>
+                    <a href="#services">Hobbies</a>
+                    <a href="#contact">Contact</a>
+                    <i class="fa-solid fa-xmark close" onclick="closemenu()"></i>
+                </nav>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </div>
+            <div class="header-text">
+                <p>MERN Stack Developer</p>
+                <h1>Hi, I'm <span>Suhel</span><br>From AndhraPradesh</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------about------------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./20230221_065155.jpg" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm enthusiastic about continuous learning and keeping up with the latest industry trends. I'm
+                        excited to contribute my skills and grow as a developer while working collaboratively with a
+                        dynamic team. If you're looking for a motivated and adaptable developer to join your team, I'd
+                        love to connect! As a fresh graduate, I bring a strong foundation in web development and a
+                        passion for creating innovative and interactive web solutions. My skills include:</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Lanuages</span><br>Python (Object Oriented Programming) , JavaScript</li>
+                            <li><span>Web Development</span><br>Proficient in HTML, CSS and JavaScript, I can craft
+                                user-friendly and responsive web interfaces that deliver a seamless user experience.I'm
+                                currently learning React.js.</li>
+                            <!-- <li><span>Databases</span><br>I have a solid understanding of database design and can create, query, and manage MySQL databases to store and retrieve data effectively.</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>Fresher</li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2023 ~ CGPA:8.5</span><br>B.Tech Rajiv Gandhi University of Knowledge
+                                Technologies,ONGOLE </li>
+                            <li><span>2017-2019 ~ CGPA:8.2</span><br>PUC Rajiv Gandhi University of Knowledge
+                                Technologies,ONGOLE </li>
+                            <li><span>2016-2017 ~ CGPA:10.0</span><br>Sri Chaitanya E.M  High School, Singarayakonda</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------Services----------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Self</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Proficient in HTML, CSS and JavaScript, I can craft user-friendly and responsive web interfaces
+                        that deliver a seamless user experience.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+
+                <div>
+                    <!-- <i class="fa-solid fa-crop"></i> -->
+                    <i class="fa-regular fa-circle-check"></i>
+                    <h2>Soft Skills</h2>
+                    <p>Problem Solving<br>Analytical and reasoning skills<br>Written and oral
+                        communication<br>Teamwork<br>Decision making<br>Team player<br>Quick
+                        Learner<br>Self-motivated<br>Time management</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-face-smile"></i>
+                    <h2>Hobbies</h2>
+                    <p>Reading books <br>Listening to music <br>Playing Cricket<br>Exploring Internet<br>Cooking</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--------------------portfolio------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div id="work-list">
+                <div class="work">
+                    <img
+                        src="https://png.pngtree.com/template/20210709/ourmid/pngtree-shopping-logo-design-image_545854.jpg" />
+                    <div class="layer">
+                        <h3>SHOPLANE</h3>
+                        <p>This is my first E-commerce project on front end web development. This ShopLane project
+                            developed using HTML, CSS and Javascript. In this project, people can order various products
+                            from this website and the orders can be seen on cart page tab. Key features of ShopLane
+                            include a vast product catalog, dynamic product pages, a user-friendly shopping cart, and
+                            streamlined order placement, ensuring a seamless and interactive online shopping experience.
+                        </p>
+                        <a href="https://suhel149673.github.io/shoplane-final-project/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./800px_COLOURBOX37098122.jpg" />
+                    <div class="layer">
+                        <h3>MovieFinder</h3>
+                        <p>Discover your next movie right with our Movie Finder project created using HTML, CSS,
+                            JavaScript, ReactJS and the OMDb API. Explore a vast collection of films, search by title,
+                            genre, or
+                            actor, and get detailed information to make informed choices for your entertainment.</p>
+                        <a href="https://suhel149673.github.io/MovieFinder/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img
+                        src="./graduation-cap-globe-floating-pastel-background-book-learning-online-education-concept-banner-website-application-page-template-worldwide-knowledge-learning-minimal-cartoon-3d-rendering_598821-1492.avif" />
+                    <div class="layer">
+                        <h3>React app(Edyoda)</h3>
+                        <p>Edyoda Grid Layout Project
+                            This project implements a responsive grid layout for an Edyoda-themed web application. The layout is created using HTML, styled with CSS, and integrated into a ReactJS application.
+                            
+                            Features
+                            Grid Layout: Utilizes CSS Grid and/or Flexbox to create a responsive grid layout for displaying content.
+                            Modular Components: Organizes content into modular React components for reusability and maintainability.
+                            Responsive Design: Ensures the grid layout adapts seamlessly to different screen sizes and devices.</p>
+                        <a href="https://suhel149673.github.io/grid-design-react/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn" id="btn1" onclick="more()">See more</a>
+            <a class="btn" id="btn2" onclick="less()">See less</a>
+        </div>
+    </div>
+    <!-- ------------------------contact------------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>shaiksuhel58482@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> +91 9491758482</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/suhel-shaik-707967244/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Suhel149673" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://codepen.io/Suhel-Shaik"><i class="fa-brands fa-codepen"></i></a>
+                    </div>
+                    <a href="./Ashok_Goli_Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>MyPortfolio @Suhel<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+        function more() {
+            var workList = document.getElementById("work-list")
+            workList.innerHTML += `
+            <div class="work">
+                    <img
+                        src="https://thumbs.dreamstime.com/b/doodles-music-illustration-creative-musical-background-colorful-stylish-raster-wallpaper-109758227.jpg" />
+                    <div class="layer">
+                        <h3>Music Player</h3>
+                        <p>Rock your day with music music player crafted using the power of HTML, CSS, and JavaScript! 🎧 In this project, I've combined my love for coding and music to create a seamless and visually stunning music player.</p>
+                        <a href="https://ashok-goli.github.io/Music-Player/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            <div class="work">
+                <img src="https://play-lh.googleusercontent.com/SQ3DumBwiaVOVXa0EKGfG5r1932Hj81-DtNVKC7IWjPlBA4lUU4k5BI0wbU1ivKmm6E"/>
+                <div class="layer">
+                    <h3>Video Player</h3>
+                    <p>Introducing our sleek Video Player project, crafted with HTML, CSS, and JavaScript. Enjoy a seamless multimedia experience with a user-friendly interface and customizable controls. Effortlessly play, pause, and navigate through videos while enjoying responsive design for optimal viewing on any device. Elevate your video playback with our stylish and versatile player.</p>
+                    <a href="https://ashok-goli.github.io/Video_Player/" target="_blank"><i class="fa-solid fa-up-right-from-square" ></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./maxresdefault.jpg"/>
+                <div class="layer">
+                    <h3>YouTube Interface</h3>
+                    <p>Explore our YouTube Interface project, meticulously crafted using HTML, CSS, JavaScript, and React. Immerse yourself in a familiar yet innovative experience resembling a YouTube clone. Enjoy responsive design and a user-friendly interface, bringing the essence of the popular platform to your fingertips</p>
+                    <a href="https://suhel149673.github.io/Youtube/" target="_blank"><i class="fa-solid fa-up-right-from-square" ></i></a>
+                </div>
+            </div>`
+            var btn1 = document.getElementById("btn1")
+            btn1.style.display = "none"
+            var btn2 = document.getElementById("btn2")
+            btn2.style.display = "block"
+        }
+        function less() {
+            var workList = document.getElementById("work-list")
+            workList.innerHTML = `                <div class="work">
+                    <img
+                        src="https://png.pngtree.com/template/20210709/ourmid/pngtree-shopping-logo-design-image_545854.jpg" />
+                    <div class="layer">
+                        <h3>SHOPLANE</h3>
+                        <p>This is my first E-commerce project on front end web development. This ShopLane project
+                            developed using HTML, CSS and Javascript. In this project, people can order various products
+                            from this website and the orders can be seen on cart page tab. Key features of ShopLane
+                            include a vast product catalog, dynamic product pages, a user-friendly shopping cart, and
+                            streamlined order placement, ensuring a seamless and interactive online shopping experience.
+                        </p>
+                        <a href="https://suhel149673.github.io/shoplane-final-project/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./800px_COLOURBOX37098122.jpg" />
+                    <div class="layer">
+                        <h3>MovieFinder</h3>
+                        <p>Discover your next movie right with our Movie Finder project created using HTML, CSS,
+                            JavaScript, ReactJS and the OMDb API. Explore a vast collection of films, search by title,
+                            genre, or
+                            actor, and get detailed information to make informed choices for your entertainment.</p>
+                        <a href="https://suhel149673.github.io/MovieFinder/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img
+                        src="./graduation-cap-globe-floating-pastel-background-book-learning-online-education-concept-banner-website-application-page-template-worldwide-knowledge-learning-minimal-cartoon-3d-rendering_598821-1492.avif" />
+                    <div class="layer">
+                        <h3>React app(Edyoda)</h3>
+                        <p>Edyoda Grid Layout Project
+                            This project implements a responsive grid layout for an Edyoda-themed web application. The layout is created using HTML, styled with CSS, and integrated into a ReactJS application.
+                            
+                            Features
+                            Grid Layout: Utilizes CSS Grid and/or Flexbox to create a responsive grid layout for displaying content.
+                            Modular Components: Organizes content into modular React components for reusability and maintainability.
+                            Responsive Design: Ensures the grid layout adapts seamlessly to different screen sizes and devices.</p>
+                        <a href="https://suhel149673.github.io/grid-design-react/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>`
+            var btn1 = document.getElementById("btn1")
+            btn1.style.display = "block"
+            var btn2 = document.getElementById("btn2")
+            btn2.style.display = "none"
+            
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyXKkQb8pQop4rZlz3repC96lqaO8eaoLUbA0DELB8DZn_pfDeLIxd85EQf8jl_Ukze/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 3000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
